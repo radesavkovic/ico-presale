@@ -1,0 +1,32 @@
+
+.affiliate-programe{
+    border-bottom: 2px solid rgb(154, 3, 224);
+    padding: 10px 0 !important;
+    color: black;
+    text-decoration: none !important;
+    margin-top: 2px;
+}
+.affiliate-programe:hover{
+    color: rgb(154, 3, 224);
+}
+.wallet-btn{
+    background-color: white;
+    border: 2px solid rgb(154, 3, 224);
+    border-radius: 20px;
+    padding:5px;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.wallet-btn:hover{
+    background-color: rgb(214 197 243);
+}
+@media only screen and (max-width:762px){
+    .affiliate-programe{
+        margin: 20px;  
+    }
+    .wallet-btn{
+       margin: 20px;
+       
+    }
+}

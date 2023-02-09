@@ -1,0 +1,180 @@
+.presales-card{
+    position: relative;
+    border: double 3px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, rgba(20, 95, 233, 0.877),rgba(150, 7, 206, 0.808));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    opacity: 0.5;
+}
+
+.live-section{
+    opacity: 1;
+    border: double 6px transparent;
+    animation: pulse-animation 2s infinite;
+}
+  
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(114, 82, 225, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 0 16px rgba(114, 82, 225, 0);
+    }
+}
+
+.presales-btn{
+    position: absolute;
+    border: none;
+    background-color: #09e426;
+    color: white;
+    border-radius: 5px;
+    top:15px;
+    right: 20px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.public-heading{
+    background: linear-gradient(to right,
+             #099fe4, #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.progressbar{
+    width: 90%;
+    height: 14px;
+    background-image: linear-gradient(to right,  rgba(57, 211, 82, 0.993), rgba(113, 238, 134, 0.993),rgb(43, 231, 115));
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.progress{
+    width: 90%;
+    height: 16px;
+    /* background-image: linear-gradient(to right,  rgba(57, 211, 82, 0.993), rgba(113, 238, 134, 0.993),rgb(43, 231, 115)); */
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: right;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: right;
+    white-space: nowrap;
+    background-image: linear-gradient(to right,  rgba(57, 211, 82, 0.993), rgba(113, 238, 134, 0.993),rgb(43, 231, 115));
+    transition: width .6s ease;
+}
+.public-bycnt{
+    width: 90%;
+    margin: 0 auto;
+}
+.public-bycnt img {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    top: 8px;
+}
+.roundOneUSD{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.hard-cup{
+    border: none;
+    font-size: 10px;
+    border:1px solid #09e426;
+    border-radius: 10px;
+    color: rgb(5, 196, 5);
+    background-color: #fff;
+
+}
+.buyUsdt-btn{
+    /* background-image:linear-gradient(to bottom,rgb(20, 160, 20),#54da54) ; */
+    background-image: linear-gradient(to right, rgba(20, 95, 233, 0.877),rgba(150, 7, 206, 0.808));
+    border: none;
+    width: 180px;
+    border-radius: 50px;
+    color: white;
+    padding:7px 12px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight:500;
+}
+.buyUsdt-btn:hover {
+    background: linear-gradient(353.97deg,#9216c6 24.97%,#b400ff 174.18%);
+    box-shadow: 0 4px 8px rgb(146 22 198 / 15%);
+}
+.buyUsdt-btn p{
+    margin-bottom: -.5px;
+}
+.total-invisitor{
+    width: 200px;
+    display: flex;
+}
+.total-invisitor img{
+    width: 40px;
+    height: 40px;
+}
+.hardCap-reached{
+   position: relative;
+   bottom: 10px;
+}
+.roundOne{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.bold-lineTwo{
+    width: 90%;
+    height: 16px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.upcoming-btn{
+    position: absolute;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    color:#fff;
+    border-radius: 5px;
+    top:15px;
+    right: 20px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+@media only screen and (max-width:762px) {
+ .roundOneUSD{
+  display: flex;
+  justify-content: space-between;
+ }
+ .total-invisitor{
+     margin-left: 20px;
+ }
+ .buyUsdt-btn{
+     margin-bottom: 20px;
+     margin-top: -5px;
+ }
+}
+
+.claim-card{
+    position: relative;
+    border: double 3px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, rgba(20, 95, 233, 0.877),rgba(150, 7, 206, 0.808));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    opacity: .5;
+}
+
+.live-claim {
+    border: double 6px transparent;
+    opacity: 1;
+    animation: pulse-animation 2s infinite;
+}

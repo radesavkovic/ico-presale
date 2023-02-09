@@ -1,0 +1,61 @@
+.affiliate{
+    padding: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.aff-card{
+       margin: 24px 0;
+       padding: 31px;
+       border-radius: 10px;
+       background-image: linear-gradient(90deg,rgba(31,97,221,.993),rgba(148,30,194,.959));
+       color: #f0f8ff;
+       font-weight: 700;
+}
+.affiliate-btn{
+    border: 0;
+    border-radius: 30px;
+    padding:8px 20px;
+    background-image: linear-gradient(to bottom, rgb(65, 180, 49),rgb(65, 214, 103));
+    color: #f0f8ff;
+    /* background-color: linear-gradient(to bottom, rgba(31,97,221,.993),rgba(148,30,194,.959)); */
+}
+.affiliate-btn:hover{
+    background-image: linear-gradient(to bottom, rgb(9 124 124),rgb(65, 214, 103));
+}
+.aff-card p{
+    font-weight: 600;
+    text-align: start;
+}
+.ico{
+    color: #740a9e;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 5px;
+}
+#AffiliateProgram {
+    position: relative;
+    border: double 3px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, rgba(20, 95, 233, 0.877),rgba(150, 7, 206, 0.808));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-bottom: 2rem;
+    margin-top: 5rem!important;
+}
+/* 
+@media (min-width: 992px) {
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 23%;
+}
+}
+
+@media (min-width: 576px) {
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 47%;
+}
+} */
